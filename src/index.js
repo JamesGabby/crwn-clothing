@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
 import { HomePage } from './pages/homepage/homepage.component';
+import { ShopPage } from './pages/shop/shop.component';
 
 export const HatsPage = () =>  (
   <div>
@@ -24,7 +25,8 @@ export const Hat = () =>  {
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/shop" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/shop" element={<ShopPage />} />
       <Route path="shop/hats" element={<HatsPage />} />
       <Route path="shop/hats/:hatId" element={<Hat />} />
     </Routes>
