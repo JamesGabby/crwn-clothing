@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JamesGabby/crwn-clothing/static/css/main.ed898076.chunk.css",
-    "main.js": "/JamesGabby/crwn-clothing/static/js/main.441b3957.chunk.js",
-    "main.js.map": "/JamesGabby/crwn-clothing/static/js/main.441b3957.chunk.js.map",
-    "runtime-main.js": "/JamesGabby/crwn-clothing/static/js/runtime-main.a0282a0e.js",
-    "runtime-main.js.map": "/JamesGabby/crwn-clothing/static/js/runtime-main.a0282a0e.js.map",
-    "static/js/2.a99e5d37.chunk.js": "/JamesGabby/crwn-clothing/static/js/2.a99e5d37.chunk.js",
-    "static/js/2.a99e5d37.chunk.js.map": "/JamesGabby/crwn-clothing/static/js/2.a99e5d37.chunk.js.map",
-    "index.html": "/JamesGabby/crwn-clothing/index.html",
-    "service-worker.js": "/JamesGabby/crwn-clothing/service-worker.js",
-    "service-worker.js.map": "/JamesGabby/crwn-clothing/service-worker.js.map",
-    "static/css/main.ed898076.chunk.css.map": "/JamesGabby/crwn-clothing/static/css/main.ed898076.chunk.css.map",
-    "static/js/2.a99e5d37.chunk.js.LICENSE.txt": "/JamesGabby/crwn-clothing/static/js/2.a99e5d37.chunk.js.LICENSE.txt"
+    "main.css": "/jamesgabby/crwn-clothing/static/css/main.ed898076.chunk.css",
+    "main.js": "/jamesgabby/crwn-clothing/static/js/main.441b3957.chunk.js",
+    "main.js.map": "/jamesgabby/crwn-clothing/static/js/main.441b3957.chunk.js.map",
+    "runtime-main.js": "/jamesgabby/crwn-clothing/static/js/runtime-main.2cd6bc10.js",
+    "runtime-main.js.map": "/jamesgabby/crwn-clothing/static/js/runtime-main.2cd6bc10.js.map",
+    "static/js/2.a99e5d37.chunk.js": "/jamesgabby/crwn-clothing/static/js/2.a99e5d37.chunk.js",
+    "static/js/2.a99e5d37.chunk.js.map": "/jamesgabby/crwn-clothing/static/js/2.a99e5d37.chunk.js.map",
+    "index.html": "/jamesgabby/crwn-clothing/index.html",
+    "service-worker.js": "/jamesgabby/crwn-clothing/service-worker.js",
+    "service-worker.js.map": "/jamesgabby/crwn-clothing/service-worker.js.map",
+    "static/css/main.ed898076.chunk.css.map": "/jamesgabby/crwn-clothing/static/css/main.ed898076.chunk.css.map",
+    "static/js/2.a99e5d37.chunk.js.LICENSE.txt": "/jamesgabby/crwn-clothing/static/js/2.a99e5d37.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0282a0e.js",
+    "static/js/runtime-main.2cd6bc10.js",
     "static/js/2.a99e5d37.chunk.js",
     "static/css/main.ed898076.chunk.css",
     "static/js/main.441b3957.chunk.js"
