@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/crwn-clothing/static/css/main.ed898076.chunk.css",
-    "main.js": "/crwn-clothing/static/js/main.441b3957.chunk.js",
-    "main.js.map": "/crwn-clothing/static/js/main.441b3957.chunk.js.map",
-    "runtime-main.js": "/crwn-clothing/static/js/runtime-main.60f99c1a.js",
-    "runtime-main.js.map": "/crwn-clothing/static/js/runtime-main.60f99c1a.js.map",
-    "static/js/2.a99e5d37.chunk.js": "/crwn-clothing/static/js/2.a99e5d37.chunk.js",
-    "static/js/2.a99e5d37.chunk.js.map": "/crwn-clothing/static/js/2.a99e5d37.chunk.js.map",
-    "index.html": "/crwn-clothing/index.html",
-    "service-worker.js": "/crwn-clothing/service-worker.js",
-    "service-worker.js.map": "/crwn-clothing/service-worker.js.map",
-    "static/css/main.ed898076.chunk.css.map": "/crwn-clothing/static/css/main.ed898076.chunk.css.map",
-    "static/js/2.a99e5d37.chunk.js.LICENSE.txt": "/crwn-clothing/static/js/2.a99e5d37.chunk.js.LICENSE.txt"
+    "main.css": "/JamesGabby/crwn-clothing.git/static/css/main.ed898076.chunk.css",
+    "main.js": "/JamesGabby/crwn-clothing.git/static/js/main.441b3957.chunk.js",
+    "main.js.map": "/JamesGabby/crwn-clothing.git/static/js/main.441b3957.chunk.js.map",
+    "runtime-main.js": "/JamesGabby/crwn-clothing.git/static/js/runtime-main.9b420212.js",
+    "runtime-main.js.map": "/JamesGabby/crwn-clothing.git/static/js/runtime-main.9b420212.js.map",
+    "static/js/2.a99e5d37.chunk.js": "/JamesGabby/crwn-clothing.git/static/js/2.a99e5d37.chunk.js",
+    "static/js/2.a99e5d37.chunk.js.map": "/JamesGabby/crwn-clothing.git/static/js/2.a99e5d37.chunk.js.map",
+    "index.html": "/JamesGabby/crwn-clothing.git/index.html",
+    "service-worker.js": "/JamesGabby/crwn-clothing.git/service-worker.js",
+    "service-worker.js.map": "/JamesGabby/crwn-clothing.git/service-worker.js.map",
+    "static/css/main.ed898076.chunk.css.map": "/JamesGabby/crwn-clothing.git/static/css/main.ed898076.chunk.css.map",
+    "static/js/2.a99e5d37.chunk.js.LICENSE.txt": "/JamesGabby/crwn-clothing.git/static/js/2.a99e5d37.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.60f99c1a.js",
+    "static/js/runtime-main.9b420212.js",
     "static/js/2.a99e5d37.chunk.js",
     "static/css/main.ed898076.chunk.css",
     "static/js/main.441b3957.chunk.js"
