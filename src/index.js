@@ -1,41 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
-import { HomePage } from './pages/homepage/homepage.component';
-import { ShopPage } from './pages/shop/shop.component';
-import { Header } from './components/header/header.component';
-import { SignInAndSignUpPage } from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
-
-export const HatsPage = () =>  (
-  <div>
-    <h1>HATS PAGE</h1>
-  </div>
- )
-
-export const Hat = () =>  {
-  let params = useParams();
-
-   return (
-    <div>
-      <h1>HAT #{params.hatId} </h1>
-    </div>
-   )
- }
+import App from './App';
 
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Header />
-
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/shop" element={<ShopPage />} />
-      <Route path="shop/hats" element={<HatsPage />} />
-      <Route path="shop/hats/:hatId" element={<Hat />} />
-      <Route path="/signin" element={<SignInAndSignUpPage />} />
-    </Routes>
-  </BrowserRouter>,
+  <App />,
   document.getElementById('root')
 );
 
