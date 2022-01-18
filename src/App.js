@@ -53,15 +53,15 @@ class App extends React.Component {
  
   render() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Header />
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/shop" element={<ShopPage />} />
-            <Route path="shop/hats" element={<HatsPage />} />
-            <Route path="shop/hats/:hatId" element={<Hat />} />
-            <Route path="/signin" element={<SignInAndSignUpPage />} />
-          </Routes>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/shop" element={<ShopPage />} />
+          <Route path="shop/hats" element={<HatsPage />} />
+          <Route path="shop/hats/:hatId" element={<Hat />} />
+          <Route exact path="/signin" element={this.props.currentUser ? <HomePage /> : <SignInAndSignUpPage />} />
+        </Routes>
       </BrowserRouter>
     );
   }
@@ -71,4 +71,8 @@ const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
 });
 
-export default connect(null, mapDispatchToProps)(App);
+const mapStateToProps = ({ user }) => ({
+  currentUser: user.currentUser
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
