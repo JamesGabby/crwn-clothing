@@ -4,4 +4,10 @@
     align-items: center;
     padding: 20px 80px;
 }
+
+@media screen and (max-width: 550px) {
+    .homepage {
+        padding: 20px 10px;
+    }
+}
   
